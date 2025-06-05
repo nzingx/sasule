@@ -1,11 +1,11 @@
-# zhashrakt
+# sasule
 
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-75%25-yellow)
-![CI](https://github.com/nckpfy/zhashrakt/actions/workflows/test.yml/badge.svg)
+![CI](https://github.com/nzingx/sasule/actions/workflows/test.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-**zhashrakt** is a customizable CLI-based key/password generator with hashing and encoding support. Designed for security, development, and automation needs.
+**sasule** is a customizable CLI-based key/password generator with hashing and encoding support. Designed for security, development, and automation needs.
 
 ---
 
@@ -27,8 +27,8 @@
 Requires Node.js v18 or later.
 
 ```bash
-git clone https://github.com/nckpfy/zhashrakt.git
-cd zhashrakt
+git clone https://github.com/nzingx/sasule.git
+cd sasule
 npm install
 ```
 
@@ -45,7 +45,7 @@ node bin/index.js
 Or globally (after `npm link`):
 
 ```bash
-zhashrakt
+sasule
 ```
 
 Example session:
@@ -73,7 +73,7 @@ base64: ZGV2X1cz...
 ## Project Structure
 
 ```
-zhashrakt/
+sasule/
 ├── bin/                  # CLI entry point
 ├── src/
 │   └── lib/              # Core modules: generator, hasher, logger
@@ -120,12 +120,12 @@ npm run coverage
 
 ## License
 
-MIT © 2025 [nckpfy](https://github.com/nckpfy)
+MIT © 2025 [nzingx](https://github.com/nzingx)
 
 ---
 
 ## Additional Info
 
-* [Report an Issue](https://github.com/nckpfy/zhashrakt/issues)
-* [Documentation & Homepage](https://github.com/nckpfy/zhashrakt#readme)
-* [Support via Ko-fi](https://ko-fi.com/nckpfy)
+* [Report an Issue](https://github.com/nzingx/sasule/issues)
+* [Documentation & Homepage](https://github.com/nzingx/sasule#readme)
+* [Support via Ko-fi](https://ko-fi.com/nzingx)
