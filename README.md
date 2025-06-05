@@ -120,7 +120,7 @@ npm run coverage
 
 ## License
 
-MIT © 2025 [nzingx](https://github.com/nzingx)
+[MIT](./LICENSE) © 2025 [nzingx](https://github.com/nzingx)
 
 ---
 

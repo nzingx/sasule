@@ -1,20 +1,20 @@
 {
   "name": "sasule",
   "version": "1.0.0",
-  "description": "sasule — entropy-powered custom key &amp; password generator.",
+  "description": "sasule — entropy-powered custom key & password generator.",
   "main": "./bin/index.js",
   "bin": "./bin/index.js",
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
-    "commit": "cz",
     "coverage": "npm run test -- --coverage",
+    "commit": "cz",
     "main": "node bin/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nzingx/sasule.git"
   },
-  "keywords": [],
+  "keywords": ["keygen", "password", "generator", "cli", "entropy"],
   "author": "nzingx",
   "license": "MIT",
   "type": "module",
@@ -22,6 +22,14 @@
     "url": "https://github.com/nzingx/sasule/issues"
   },
   "homepage": "https://github.com/nzingx/sasule#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
   "dependencies": {
     "base32.js": "^0.1.0",
     "crypto-js": "^4.2.0",
@@ -36,5 +44,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
