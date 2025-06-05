@@ -14,7 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/nzingx/sasule.git"
   },
-  "keywords": ["keygen", "password", "generator", "cli", "entropy"],
+  "keywords": [
+    "keygen",
+    "password",
+    "generator",
+    "cli",
+    "entropy"
+  ],
   "author": "nzingx",
   "license": "MIT",
   "type": "module",
@@ -44,8 +50,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "jest": {
-    "testEnvironment": "node"
   }
 }
