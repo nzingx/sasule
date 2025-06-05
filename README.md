@@ -4,6 +4,9 @@
 ![Coverage](https://img.shields.io/badge/coverage-75%25-yellow)
 ![CI](https://github.com/nzingx/sasule/actions/workflows/test.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+[![npm version](https://img.shields.io/npm/v/sasule?color=crimson&label=version&logo=npm)](https://www.npmjs.com/package/sasule)
+[![View on npm](https://img.shields.io/badge/View%20on-npm-orange?logo=npm)](https://www.npmjs.com/package/sasule)
+
 
 **sasule** is a customizable CLI-based key/password generator with hashing and encoding support. Designed for security, development, and automation needs.
 
